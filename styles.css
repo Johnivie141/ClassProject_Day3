@@ -1,0 +1,89 @@
+
+.main{
+    position:relative;
+    width:72%;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:white;
+    font-family:sans-serif;
+    font-size:20px;
+    
+}
+.initialParagraph{
+
+ margin-top:32px;
+ text-align:justify;
+    
+
+}
+.secondParagraph{
+     margin-top:32px;
+     line-height:1.4em;
+     text-align:justify;
+}
+.welcome{
+    position:absolute;
+    margin-top:32px;
+    
+    right:0px;
+    font-weight:600;
+}
+/* site Styles */
+
+.wikimediaSites{
+    float:left;
+   
+    overflow:auto;
+    margin-top:120px;
+}
+.wikimediaSite{
+       height: 175px;
+    min-width: 150px;
+    max-width: 300px;
+    line-height: 175px;
+    width:23.75%;
+    display:inline-block;
+}
+.image_span{
+    width:47px;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.wikimediaSites::after{
+    clear:both;
+}
+/* end site Styles */
+
+
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}
+
+
+.footerMessage{
+   width:80%;
+   font-size:13px;
+   margin-top:16px;
+   margin-right:auto;
+   margin-left:auto;
+   text-align:center;
+}
+
+.footer{
+ margin-top:32px;
+ width:20%;
+ margin-right:auto;
+ margin-left:auto;
+ font-size:13px;
+
+}
+.footerLinks{
+    display:inline-block;
+    margin-left:32px;
+    
+}
